@@ -1,8 +1,8 @@
+#[derive(PartialEq)]
 pub enum Status {
   Linux,
   Windows,
-  Down,
-  Unknown
+  Down
 }
 
 pub struct Machine {
