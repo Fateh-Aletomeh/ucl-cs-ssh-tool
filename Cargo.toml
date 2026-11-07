@@ -1,5 +1,6 @@
 [package]
 name = "ucl-cs-ssh-tool"
+description = "CLI tool that makes sshing into UCL CS lab machines less annoying :)"
 version = "0.1.0"
 edition = "2024"
 
