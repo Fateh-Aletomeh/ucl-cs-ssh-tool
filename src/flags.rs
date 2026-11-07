@@ -4,7 +4,7 @@ use std::cmp::max;
 
 pub fn list_machines(lab_105: &[Machine], lab_121: &[Machine]) {
   println!("{:-<17}-+-{:-<17}", "", "");
-  println!("| {:<15} | {:<15} |", "1.05", "1,21");
+  println!("| {:<15} | {:<15} |", "1.05", "1.21");
   println!("{:-<17}-+-{:-<17}", "", "");
 
   let max_len = max(lab_105.len(), lab_121.len());
