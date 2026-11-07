@@ -1,8 +1,10 @@
-use ucl_cs_ssh_tool::run;
+use clap::Parser;
+use ucl_cs_ssh_tool::{cli::Args, run};
 
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-  let _ = run();
+  let args = Args::parse();
+  run(args).await?;
   Ok(())
 }
